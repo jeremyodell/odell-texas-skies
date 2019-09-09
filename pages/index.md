@@ -1,12 +1,27 @@
 ---
 layout: home
-title: Odell.dev
+title: Texas Skies District
 permalink: /
 section: home
-intro_paragraph: >
-  [Jekyll Netlify Boilerplate](https://github.com/danurbanowicz/jekyll-netlify-boilerplate)
-  provides the basics to get a fast, static website deployed on Netlify.
-  Features [Netlify CMS](https://www.netlifycms.org), responsive
-  CSS Grid layout, sample
-  pages and posts, and a continuous deployment workflow.
+intro_paragraph: Please sign in here for Roundtable
 ---
+
+<form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+<p>Pack or Troop:</p>
+  <input type="radio" name="type" value="Pack"> Pack<br>
+  <input type="radio" name="type" value="Troop"> Troop<br>
+  </p>
+  <p>
+    <label>Unit Number: <input type="number" name="email" /></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
