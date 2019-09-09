@@ -3,11 +3,7 @@ layout: home
 title: Texas Skies District
 permalink: /
 section: home
-intro_paragraph: |-
-  Sign Up Here
-
-
-  Links Here
+intro_paragraph: Please sign in here for Roundtable
 ---
 
 <form name="contact" method="POST" data-netlify="true">
@@ -18,13 +14,12 @@ intro_paragraph: |-
     <label>Your Email: <input type="email" name="email" /></label>
   </p>
   <p>
-    <label>Your Role: <select name="role[]" multiple>
-      <option value="leader">Leader</option>
-      <option value="follower">Follower</option>
-    </select></label>
+<p>Pack or Troop:</p>
+  <input type="radio" name="type" value="Pack"> Pack<br>
+  <input type="radio" name="type" value="Troop"> Troop<br>
   </p>
   <p>
-    <label>Message: <textarea name="message"></textarea></label>
+    <label>Unit Number: <input type="email" name="email" /></label>
   </p>
   <p>
     <button type="submit">Send</button>
