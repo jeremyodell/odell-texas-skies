@@ -3,6 +3,30 @@ layout: home
 title: Texas Skies District
 permalink: /
 section: home
-intro_paragraph: "Sign Up Here\n\n<form name=\"contact\" method=\"POST\" data-netlify=\"true\">\r\n  <p>\r\n    <label>Your Name: <input type=\"text\" name=\"name\" /></label>   \r\n  </p>\r\n  <p>\r\n    <label>Your Email: <input type=\"email\" name=\"email\" /></label>\r\n  </p>\r\n  <p>\r\n    <label>Your Role: <select name=\"role[]\" multiple>\r\n      <option value=\"leader\">Leader</option>\r\n      <option value=\"follower\">Follower</option>\r\n    </select></label>\r\n  </p>\r\n  <p>\r\n    <label>Message: <textarea name=\"message\"></textarea></label>\r\n  </p>\r\n  <p>\r\n    <button type=\"submit\">Send</button>\r\n  </p>\r\n</form>\n\nLinks Here"
+intro_paragraph: |-
+  Sign Up Here
+
+
+  Links Here
 ---
 
+<form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
