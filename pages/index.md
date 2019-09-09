@@ -7,18 +7,13 @@ intro_paragraph: Please sign in here for Roundtable
 ---
 
 <form name="contact" method="POST" data-netlify="true">
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>   
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-<p>Pack or Troop:</p>
-  <input type="radio" name="type" value="Pack"> Pack<br>
+    <label>First Name: <input type="text" name="fname" /></label><br>
+    <label>Last Name: <input type="text" name="lname" /></label><br>
+    <label>Your Email: <input type="email" name="email" /></label><br>
+<p>Pack or Troop:
+  <input type="radio" name="type" value="Pack"> Pack
   <input type="radio" name="type" value="Troop"> Troop<br>
-  </p>
-  <p>
+  
     <label>Unit Number: <input type="email" name="email" /></label>
   </p>
   <p>
