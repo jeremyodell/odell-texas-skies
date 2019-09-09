@@ -17,6 +17,6 @@ intro_paragraph: Please sign in here for Roundtable
     <label>Unit Number: <input type="email" name="email" /></label>
   </p>
   <p>
-    <button type="submit">Send</button>
+    <button type="submit">SUBMIT</button>
   </p>
 </form>
