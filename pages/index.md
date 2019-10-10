@@ -3,10 +3,10 @@ layout: home
 title: Texas Skies District
 permalink: /
 section: home
-intro_paragraph: Please sign in here for Roundtable
+intro_paragraph: Please sign in here for October Roundtable
 ---
 
-<form name="sept-roundtable" method="POST" data-netlify="true">
+<form name="oct-roundtable" method="POST" data-netlify="true">
     <label>First Name: <input type="text" name="fname" /></label><br>  
     <label>Last Name: <input type="text" name="lname" /></label><br> 
     <label>Your Email: <input type="email" name="email" /></label>
